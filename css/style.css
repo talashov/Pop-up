@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #d0deeb;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 15px;
+  width: 100%;
+  height: 100%;
+}
+.btn__inner {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 15px 45px;
+  font-size: 16px;
+  color: #0d0d0d;
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  border: 1px solid #0d0d0d;
+}
+.pop-up__inner {
+  display: flex;
+  justify-content: space-around;
+
+}
+.pop-up {
+  display: none;
+  align-self: start;
+  width: 331px;
+  height: 224px;
+  align-items: end;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.3s;
+}
+.pop-up.active {
+  display: block;
+}
+.btn.hiden{
+  display: none;
+}
+.img__box {
+  display: flex;
+  justify-content: space-around;
+}
+.pop-up__img {
+  position: absolute;
+  top: -50px;
+  background: #13c39c;
+  border: 3px solid #25ffae;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 30px 24px;
+}
+.pop-up__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 67px;
+  color: #7c8691;
+}
+.pop-up__text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #d3dae0;
+  margin-bottom: 15px;
+}
+.storage__btn {
+  display: grid;
+  gap: 12px;
+  padding: 12px 15px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background: #f1f5f8;
+  height: 80px;
+  border-radius: 0px 0px 10px 10px;
+}
+.pop-up__btn {
+  padding: 10px 31px;
+  border: none;
+  width: 144px;
+  height: 38px;
+  border-radius: 4px;
+}
+.item-1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #9ba9b9;
+  background: #d0deeb;
+}
+.item-2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #ffffff;
+  background: #13c39c;
+}
+.item-1:hover {
+  color: #fff;
+  background: #9aaab9;
+}
+.item-4 {
+  background: #fb4b4b;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+}
+.pop-up__img-cancel {
+  background: #fb4b4b;
+  border: 3px solid #f6bdbd;
+}
