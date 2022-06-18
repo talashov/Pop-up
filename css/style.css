@@ -34,7 +34,6 @@ body {
 .pop-up__inner {
   display: flex;
   justify-content: space-around;
-
 }
 .pop-up {
   display: none;
@@ -50,7 +49,7 @@ body {
 .pop-up.active {
   display: block;
 }
-.btn.hiden{
+.btn.hiden {
   display: none;
 }
 .img__box {
@@ -95,6 +94,7 @@ body {
   background: #f1f5f8;
   height: 80px;
   border-radius: 0px 0px 10px 10px;
+  margin-top: 21px;
 }
 .pop-up__btn {
   padding: 10px 31px;
